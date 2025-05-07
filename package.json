@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
+    "build:watch": "yarn build --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.4"
+  }
+}
